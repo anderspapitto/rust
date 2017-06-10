@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+llvm-config "$@" | sed 's/-lm/-lm -lffi/'
